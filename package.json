@@ -1,0 +1,21 @@
+{
+  "name": "calebmpeterson.github.com",
+  "version": "1.0.0",
+  "description": "Cubicle6.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "build:style": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js scss/style.scss assets/css/style.css",
+    "build:style:watch": "npm run build:style -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caleb.Peterson@Cubicle6.com",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.1.1",
+    "bootswatch": "^4.1.1",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.0",
+    "node-sass-package-importer": "^5.1.3"
+  }
+}
