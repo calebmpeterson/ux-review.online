@@ -1,3 +1,14 @@
-@import "~bootstrap/scss/bootstrap";
 @import "~bootswatch/dist/sandstone/variables";
+@import "~bootstrap/scss/bootstrap";
 @import "~bootswatch/dist/sandstone/bootswatch";
+
+$bg-scenic-padding: 17rem;
+.bg-scenic {
+  background-image: url(/assets/img/unsplash-5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.connector {
+  padding-top: $bg-scenic-padding;
+}
