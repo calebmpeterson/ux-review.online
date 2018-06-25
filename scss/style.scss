@@ -10,23 +10,23 @@ $headings-font-family:        "Comfortaa" !default;
 @import "~@mdi/font/scss/materialdesignicons";
 
 .bg-gradient-1 {
-      background: url(assets/img/bgtr.svg) top right no-repeat,
-        url(assets/img/bgbl.svg) bottom left no-repeat,
-        url(assets/img/bgbl.svg) bottom left no-repeat,
-        url(assets/img/overlay.png),
+      background: url(/assets/img/bgtr.svg) top right no-repeat,
+        url(/assets/img/bgbl.svg) bottom left no-repeat,
+        url(/assets/img/bgbl.svg) bottom left no-repeat,
+        url(/assets/img/overlay.png),
         linear-gradient(45deg, #b39c68, #a56365, #412e4c);
 }
 
 .bg-gradient-2 {
-  background: url(assets/img/bgtr.svg) top right no-repeat,
-    url(assets/img/bgbl.svg) bottom left no-repeat,
-    url(assets/img/overlay.png),
+  background: url(/assets/img/bgtr.svg) top right no-repeat,
+    url(/assets/img/bgbl.svg) bottom left no-repeat,
+    url(/assets/img/overlay.png),
     linear-gradient(45deg, #384955, #655361, #85505f);
 }
 
 .bg-gradient-3 {
-   background: url(assets/img/bgtr.svg) top right no-repeat,
-     url(assets/img/bgbl.svg) bottom left no-repeat,
-     url(assets/img/overlay.png),
+   background: url(/assets/img/bgtr.svg) top right no-repeat,
+     url(/assets/img/bgbl.svg) bottom left no-repeat,
+     url(/assets/img/overlay.png),
      linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
 }
