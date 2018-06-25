@@ -7,13 +7,24 @@ $headings-font-family:        "Raleway" !default;
 @import "~bootstrap/scss/bootstrap";
 @import "~bootswatch/dist/sandstone/bootswatch";
 
-$bg-scenic-padding: 17rem;
-.bg-scenic {
-  background-image: url(/assets/img/unsplash-5.jpg);
-  background-size: cover;
-  background-position: center;
+.bg-gradient-1 {
+      background: url(assets/img/bgtr.svg) top right no-repeat,
+        url(assets/img/bgbl.svg) bottom left no-repeat,
+        url(assets/img/bgbl.svg) bottom left no-repeat,
+        url(assets/img/overlay.png),
+        linear-gradient(45deg, #b39c68, #a56365, #412e4c);
 }
 
-.connector {
-  padding-top: $bg-scenic-padding;
+.bg-gradient-2 {
+  background: url(assets/img/bgtr.svg) top right no-repeat,
+    url(assets/img/bgbl.svg) bottom left no-repeat,
+    url(assets/img/overlay.png),
+    linear-gradient(45deg, #384955, #655361, #85505f);
+}
+
+.bg-gradient-3 {
+   background: url(assets/img/bgtr.svg) top right no-repeat,
+     url(assets/img/bgbl.svg) bottom left no-repeat,
+     url(assets/img/overlay.png),
+     linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
 }
